@@ -1,0 +1,39 @@
+.headerCommentBlock {
+    /* background: aqua; */
+    border-top: 2px solid black;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 400px;
+    top: 700px;
+    display: flex;
+    background: #fff;
+
+    z-index: 1000;
+}
+
+.headerCommentBlock textarea {
+    width: 900px;
+    height: 100px;
+
+    margin-top: 15px;
+    margin-left: 25px;
+    padding-left: 10px;
+
+    border-radius: 8px;
+
+    resize: none;
+}
+
+.headerCommentBlock button {
+    border: none;
+    width: 120px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: darkblue;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+
+    margin-top: 80px;
+    margin-left: 10px;
+}

@@ -1,0 +1,39 @@
+.notOurComment {
+    text-align: start;
+    margin-left: 30px;
+    margin-bottom: 30px;
+
+    margin-top: 30px;
+}
+
+.ourComment {
+    text-align: end;
+    margin-right: 50px;
+    margin-bottom: 30px;
+}
+
+.comName {
+    margin: 0 0 0 10px;
+    padding: 0 0 4px 0;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.comText {
+    margin: 0 0 0 20px;
+    padding: 0 0 0 0;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+.comDate {
+    margin: 0 0 0 10px;
+    padding: 0 0 0 0;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+
+    color: gray;
+}

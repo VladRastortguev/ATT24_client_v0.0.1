@@ -1,0 +1,327 @@
+/* font-family: 'Roboto', sans-serif; */
+
+.detAllHeaderBlock {
+    background-color: lightgray;
+    position: fixed;
+    
+    top: 0;
+    bottom: 0;
+    right: 0;
+
+    width: 400px;
+
+    overflow: scroll;
+}
+
+.detStatusSection {
+    display: flex;
+}
+
+.detStatusSection p {
+    font-family: 'Roboto', sans-serif;
+}
+
+.detStatusSection p:nth-child(1) {
+    font-size: 18px;
+    padding-left: 10px;
+
+    color: dark;
+}
+
+.detStatusSection p:nth-child(2) {
+    font-size: 16px;
+
+    margin-left: 36px;
+    margin-top: 15.6px;
+    padding: 4px 10px;
+    
+    /* font-weight: bold; */
+    
+    background-color: darkblue;
+
+    border-radius: 8px;
+
+    color: white;
+}
+
+.detTaskName {
+    display: flex;
+}
+
+.detTaskName p {
+    font-family: 'Roboto', sans-serif;
+}
+
+.detTaskName p:nth-child(1) {
+    font-size: 18px;
+    padding-left: 10px;
+
+    color: dark;
+}
+
+.detTaskName p:nth-child(2) {
+    font-size: 16px;
+    
+    margin-left: 11px;
+    margin-top: 15.6px;
+    padding: 4px 10px;
+
+    background-color: darkblue;
+
+    border-radius: 8px;
+
+    color: white;
+}
+
+.detDateOfComplited {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.detDateOfComplited p {
+    font-family: 'Roboto', sans-serif;
+}
+
+.detDateOfComplited p:nth-child(1) {
+    font-size: 18px;
+    padding-left: 10px;
+
+    color: dark;
+}
+
+.detDateOfComplited p:nth-child(2) {
+    font-size: 16px;
+
+    margin-left: 10px;
+    margin-top: 15px;
+    padding: 4px 10px;
+
+    background-color: darkblue;
+
+    border-radius: 8px;
+
+    color: white;
+}
+
+.detDateOfCreate {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.detDateOfCreate p {
+    font-family: 'Roboto', sans-serif;
+}
+
+.detDateOfCreate p:nth-child(1) {
+    font-size: 18px;
+    padding-left: 10px;
+
+    color: dark;
+}
+
+.detDateOfCreate p:nth-child(2) {
+    font-size: 16px;
+
+    margin-left: 32px;
+    margin-top: 15px;
+    padding: 4px 10px;
+
+    background-color: darkblue;
+
+    border-radius: 8px;
+
+    color: white;
+}
+
+.detExecutor {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.detExecutor p {
+    font-family: 'Roboto', sans-serif;
+}
+
+.detExecutor p:nth-child(1) {
+    font-size: 18px;
+    padding-left: 10px;
+
+    color: dark;
+}
+
+.detExecutor p:nth-child(2) {
+    font-size: 16px;
+
+    margin-left: 49px;
+    margin-top: 15px;
+    padding: 4px 10px;
+
+    background-color: darkblue;
+
+    border-radius: 8px;
+
+    color: white;
+}
+
+.detInitiator {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.detInitiator p {
+    font-family: 'Roboto', sans-serif;
+}
+
+.detInitiator p:nth-child(1) {
+    font-size: 18px;
+    padding-left: 10px;
+
+    color: dark;
+}
+
+.detInitiator p:nth-child(2) {
+    font-size: 16px;
+ 
+    margin-left: 67px;
+    margin-top: 15px;
+    padding: 4px 10px;
+
+    background-color: darkblue;
+
+    border-radius: 8px;
+
+    color: white;
+}
+
+.detOrganizationClient {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.detOrganizationClient p {
+    font-family: 'Roboto', sans-serif;
+}
+
+.detOrganizationClient p:nth-child(1) {
+    font-size: 18px;
+    padding-left: 10px;
+
+    color: dark;
+}
+
+.detOrganizationClient p:nth-child(2) {
+    font-size: 16px;
+
+    margin-left: 10px;
+    margin-top: 15px;
+    padding: 4px 10px;
+
+    background-color: darkblue;
+
+    border-radius: 8px;
+
+    color: white;
+}
+
+.detOrganizationExecutor {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.detOrganizationExecutor p {
+    font-family: 'Roboto', sans-serif;
+}
+
+.detOrganizationExecutor p:nth-child(1) {
+    font-size: 18px;
+    padding-left: 10px;
+
+    color: dark;
+}
+
+.detOrganizationExecutor p:nth-child(2) {
+    font-size: 16px;
+
+    margin-left: 10px;
+    margin-top: 15px;
+    padding: 4px 10px;
+
+    background-color: darkblue;
+
+    border-radius: 8px;
+
+    color: white;
+}
+
+.detPryorityTask {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.detPryorityTask p {
+    font-family: 'Roboto', sans-serif;
+}
+
+.detPryorityTask p:nth-child(1) {
+    font-size: 18px;
+    padding-left: 10px;
+
+    color: dark;
+}
+
+.detPryorityTask p:nth-child(2) {
+    font-size: 16px;
+
+    margin-left: 10px;
+    margin-top: 15px;
+    padding: 4px 10px;
+
+    background-color: darkblue;
+
+    border-radius: 8px;
+
+    color: white;
+}
+
+.detService {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.detService p {
+    font-family: 'Roboto', sans-serif;
+}
+
+.detService p:nth-child(1) {
+    font-size: 18px;
+    padding-left: 10px;
+
+    color: dark;
+}
+
+.detService p:nth-child(2) {
+    font-size: 16px;
+
+    margin-top: 15px;
+    margin-left: 10px;
+    padding: 4px 10px;
+
+    background-color: darkblue;
+
+    border-radius: 8px;
+
+    color: white;
+}
+
+.detAllHeaderBlock::-webkit-scrollbar {
+    margin-right: 500px;
+}
+
+.commnentInterfaceBlock {
+    width: 1130px;
+    height: 680px;
+    z-index: 1;
+
+    overflow-y: scroll;
+    overflow-x: hidden;
+}

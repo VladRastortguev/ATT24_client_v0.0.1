@@ -1,0 +1,290 @@
+/* font-family: 'Roboto', sans-serif; */
+
+.regLogAllHead {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 98vh;
+
+    background: lightgray;
+
+    margin: -10px -8px;
+    padding-bottom: 17px;
+}
+
+body {
+    overflow: hidden;
+}
+
+.header {
+    /* background: lightblue; */
+    padding: 15px;
+
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logosvg {
+    margin-right: 50px;
+}
+
+.homeHeaderBlock {
+    width: 100%;
+    height: 98vh;
+
+    position: relative;
+}
+
+.logoutBtn {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+
+    padding: 5px 10px;
+    border: none;
+    background: red;
+    color: white;
+
+    border-radius: 8px;
+}
+
+.unShowNavbarBlock {
+    display: none;
+}
+
+.navbarshow {
+    text-decoration: none;
+    color: black;
+
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 30px;
+}
+
+.navbarshow div {
+    display: inline-block;
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin-bottom: 5px;
+}
+
+.showNavbarBlock {
+    position: fixed;
+
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 1250px;
+
+    /* background: lightgray; */
+
+    background: white;
+
+    border-right: 2px solid black;
+}
+
+.navbarContainer {
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+}
+
+.closeNavbar {
+    position: absolute;
+    top: 16px;
+    right: 20px;
+
+    width: 25px;
+    height: 25px;
+
+    border-radius: 50%;
+
+    border: none;
+}
+
+.navbarList {
+    position: absolute;
+
+    left: 0px;
+    top: 50px;
+}
+
+.navbarList li {
+    margin: 0 0 0 -39px;
+    padding: 10px 105px 10px 0;
+    list-style-type: none;
+
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.taskListbtn {
+    padding: 8px 16px;
+    border: none;
+
+    background: blue;
+    color: white;
+
+    border-radius: 8px;
+
+    margin-right: -35px;
+    margin-left: 35px;
+}
+
+.newsBlock {
+    /* background: aqua; */
+    height: 710px;
+    width: 1300px;
+
+    position: absolute;
+    top: 100px;
+    left: 50%;
+
+    transform: translateX(-51%);
+}
+
+.informationBlock {
+    /* background-color: white; */
+    
+    height: 640px;
+    width: 500px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-110%, -50%);
+}
+
+.commentNewsBlock {
+    background-color: white;
+
+    height: 640px;
+    width: 500px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(10%, -50%);
+} 
+
+.namePublishNews {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.namePublishNews li {
+    list-style-type: none;
+}
+
+.namePublishNews li:nth-child(1) {
+    color: darkblue;
+    padding-right: 10px;
+    font-size: 16px;
+}
+
+.namePublishNews li:nth-child(1)::after {
+    content: ">";
+    padding-left: 10px;
+    font-family: 'Roboto', sans-serif;
+
+    text-decoration: none;
+    color: gray;
+}
+
+.namePublishNews li:nth-child(1):hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.namePublishNews li:nth-child(2) {
+    color: gray;
+    padding-right: 4px;
+    font-size: 13px;
+    padding-top: 3px;
+}
+
+.namePublishNews li:nth-child(2)::after {
+    content: ",";
+}
+
+.namePublishNews li:nth-child(2):hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.namePublishNews li:nth-child(3) {
+    color: gray;
+    padding-right: 4px;
+    font-size: 13px;
+    padding-top: 3px;
+}
+
+.namePublishNews li:nth-child(3)::after {
+    content: ",";
+}
+
+.namePublishNews li:nth-child(3):hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.namePublishNews li:nth-child(4) {
+    color: gray;
+    padding-right: 6px;
+    font-size: 13px;
+    padding-top: 3px;
+}
+
+.namePublishNews li:nth-child(4):hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.namePublishNews li:nth-child(5) {
+    color: gray;
+    padding-right: 4px;
+    font-size: 13px;
+    padding-top: 3px;
+}
+
+.namePublishNews li:nth-child(5):hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.dataTextNews {
+    padding: 0;
+    margin: -10px 0 0 40px;
+
+    font-size: 14px;
+    color: darkgray;
+}
+
+.newsItemtext {
+    margin: -10px 0 0 40px;
+
+    margin-bottom: 50px;
+}
+
+.newsItemtext h4:hover {
+    text-decoration: underline;
+}
+
+.newsItem {
+    background: wheat;
+    padding: 10px;
+    border-radius: 16px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,291 @@
+/* font-family: 'Roboto', sans-serif; */
+
+.myTaskHeader {
+    width: 1300px;
+    margin-left: 4.5%;
+    margin-top: 130px;
+}
+
+.tableHeader {
+    display: flex;
+    justify-content: space-between;
+
+    border-bottom: 2px solid black;
+}
+
+.tableHeader li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+
+    width: 100%;
+
+    text-align: center;
+
+    padding-bottom: 20px;
+}
+
+.taskElement {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    border-bottom: 1px solid gray;
+}
+
+.taskElement li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Roboto', sans-serif;
+    
+    width: 100%;
+    height: 30;
+    text-align: center;
+
+    background-color: lightcyan;
+
+    margin-bottom: 20px;
+}
+
+.taskElement li:nth-child(1) {
+    padding: 14.6px 0;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.taskElement li:nth-child(2) {
+    padding: 14.6px 0;
+}
+
+.taskElement li:nth-child(3) {
+    padding: 14.6px 0;
+}
+
+.taskElement li:nth-child(4) {
+    padding: 5px 0;
+}
+
+.taskElement li:nth-child(5) {
+    padding: 14.6px 0;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+body {
+    position: relative;
+}
+
+.buttonBlock {
+    text-align: end;
+    width: 86.5%;
+    /* background-color: aqua; */
+
+    position: absolute;
+    top: -100px;
+    right: 135px;
+
+    padding: 6px 0;
+}
+
+.buttonBlock button {
+    margin-right: 43px;
+    padding: 12px 30px;
+
+    background: blue;
+    color: white;
+    
+    border: none;
+    border-radius: 10px;
+
+    font-size: 15px;
+}
+
+.headerCreateTaskModal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: white;
+
+    transform: translate(-60%, -75%);
+
+    border: 1px solid black;
+    border-radius: 16px;
+
+    width: 400px;
+    height: 570px;
+}
+
+.modalCreateContainer{
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+}
+
+.taskNameSection {
+    padding-top: 40px;
+    margin-bottom: 30px;
+    padding-left: 80px;
+}
+
+.taskNameSection p {
+    margin: 5px 0 10px 0;
+    padding: 0;
+
+    font-size: 17px;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.taskNameSection input {
+    padding: 5px 0 5px 5px;
+    font-size: 15px;
+    border-radius: 5px;
+
+    border: 1px solid black;
+
+    width: 230px;
+    height: 22px;
+}
+
+.detailsTaskNameSection {
+    padding-left: 80px;
+    margin-bottom: 25px;
+}
+
+.detailsTaskNameSection p {
+    margin: 5px 0 10px 0;
+    padding: 0;
+
+    font-size: 17px;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.detailsTaskNameSection textarea {
+    padding: 5px 0 5px 5px;
+    font-size: 13px;
+    border-radius: 5px;
+
+    border: 1px solid black;
+
+    width: 230px;
+    /* height: 22px; */
+}
+
+.organizationSection {
+    margin-top: 15px;
+    padding-left: 80px;
+}
+
+.organizationSection p {
+    margin: 5px 0 10px 0;
+    padding: 0;
+
+    font-size: 17px;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.organizationSection select {
+    padding: 5px 0 5px 5px;
+    font-size: 13px;
+    border-radius: 5px;
+
+    border: 1px solid black;
+
+    width: 237px;
+    height: 33.6px;
+}
+
+.serviceSection {
+    margin-top: 15px;
+    padding-left: 80px;
+}
+
+.serviceSection p {
+    margin: 5px 0 10px 0;
+    padding: 0;
+
+    font-size: 17px;
+    
+    font-family: 'Roboto', sans-serif;
+}
+
+.serviceSection select {
+    padding: 5px 0 5px 5px;
+    font-size: 13px;
+    border-radius: 5px;
+
+    border: 1px solid black;
+
+    width: 237px;
+    height: 33.6px;
+}
+
+.prioritySection {
+    margin-top: 15px;
+    padding-left: 80px;
+}
+
+.prioritySection p {
+    margin: 5px 0 10px 0;
+    padding: 0;
+
+    font-size: 17px;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.prioritySection select {
+    padding: 5px 0 5px 5px;
+    font-size: 13px;
+    border-radius: 5px;
+
+    border: 1px solid black;
+
+    width: 237px;
+    height: 33.6px;
+}
+
+.createBtn {
+    position: absolute;
+    bottom: 30px;
+    right: 80px;
+
+    padding: 10px 25px;
+
+    background: blue;
+    font-size: 13px;
+    /* font-weight: bold; */
+
+    color: white;
+
+    border: none;
+    border-radius: 8px;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.closeBtn {
+    position: absolute;
+    bottom: 30px;
+    left: 80px;
+
+    padding: 10px 15px;
+    background: red;
+    font-size: 13px;
+
+    color: white;
+
+    border: none;
+    border-radius: 8px;
+
+    font-family: 'Roboto', sans-serif;
+}
