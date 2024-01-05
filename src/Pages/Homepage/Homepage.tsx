@@ -71,8 +71,6 @@ const Homepage:FC = () => {
       })
     }
 
-    console.log(itilArr);
-
     if (store.isLoading) {
       return <div>...Загрузка</div>
     }

@@ -121,7 +121,7 @@ const MyTask = () => {
                 {taskArr.map((task, index) => {
                     return (
                         <ul key={index}  onClick={() => navigate(`/mytask/${name}/details/${task.UID}`)} className='taskElement'>                                    
-                            <li key={"numberText" + index}>{index}</li>
+                            <li key={"numberText" + index}>{index + 1}</li>
                             <li key={"taskNameText" + index}>{task.TaskName}</li>
                             <li key={"dateText" + index}>{task.DateOfCreation}</li>
                             <li key={"initiatorText" + index}>{task.Initiator}</li>
@@ -130,7 +130,12 @@ const MyTask = () => {
                     )
                 })}
 
-                <div className='buttonBlock'>
+                <div className='buttonBlock'>                    
+                    <div className='clientTask'>
+                        <p>Общие количество задач: {tasks.length}</p>
+                        <p>Количество ваших задач: {taskArr.length}</p>
+                    </div>
+
                     <button onClick={() => setCreateTask(true)}>Создать Задачу</button>
                 </div>
 
