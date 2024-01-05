@@ -46,7 +46,6 @@ export default class Store {
         try {
             const response = await AuthService.registration(email, password);
             console.log(response);
-            localStorage.setItem('token', response.data.accesToken);
             this.setAuth(true);
             this.setUser(response.data.user);
         } catch (e) {
@@ -71,6 +70,7 @@ export default class Store {
             const response = await axios.get<AuthResponce>(`${API_URL}/refresh`, {withCredentials: true})
             console.log(response);
             localStorage.setItem('token', response.data.accesToken);
+            localStorage.setItem('admin', String(this.user.admin))
             this.setAuth(true);
             this.setUser(response.data.user);
         } catch(e) {

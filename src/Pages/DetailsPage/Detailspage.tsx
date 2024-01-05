@@ -71,6 +71,7 @@ const Detailspage:FC = () => {
           <div className='commnentInterfaceBlock'>
             <CommentInterface />
           </div>
+
           {taskArr.map((item, index) => {
             return (
                 <div className='detAllHeaderBlock' key={index}>
