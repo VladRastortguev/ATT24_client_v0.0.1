@@ -3,7 +3,7 @@ import { error } from "console";
 import { config } from "process";
 import { AuthResponce } from "../models/response/AuthResponse";
 
-export const API_URL = 'http://45.80.71.178:5000/api'
+export const API_URL = 'http://5.35.90.201:5000/api'
 
 export const API_TASKS = 'http://192.168.2.26:35421/itil_demo/hs/API'
 
